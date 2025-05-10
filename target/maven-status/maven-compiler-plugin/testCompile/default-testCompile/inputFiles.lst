@@ -1,5 +1,7 @@
-C:\Users\natal\IdeaProjects\Librarry_application_dos\src\test\java\com\dos\step_definitions\GoogleStep.java
 C:\Users\natal\IdeaProjects\Librarry_application_dos\src\test\java\com\dos\utilities\ConfigurationReader.java
+C:\Users\natal\IdeaProjects\Librarry_application_dos\src\test\java\com\dos\pages\LoginPage.java
+C:\Users\natal\IdeaProjects\Librarry_application_dos\src\test\java\com\dos\step_definitions\login_StepDef.java
 C:\Users\natal\IdeaProjects\Librarry_application_dos\src\test\java\com\dos\utilities\Driver.java
 C:\Users\natal\IdeaProjects\Librarry_application_dos\src\test\java\com\dos\utilities\BrowserUtils.java
+C:\Users\natal\IdeaProjects\Librarry_application_dos\src\test\java\com\dos\pages\BasePage.java
 C:\Users\natal\IdeaProjects\Librarry_application_dos\src\test\java\com\dos\runners\CukesRunner.java

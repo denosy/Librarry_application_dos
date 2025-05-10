@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Library_application_dos" />
+        <module name="Librarry_application_dos" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="asgard_project" target="11" />
-      <module name="Librarry_application_dos" target="11" />
+      <module name="Library_application_dos" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

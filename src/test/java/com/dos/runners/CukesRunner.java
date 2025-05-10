@@ -23,4 +23,16 @@ import org.junit.runner.RunWith;
 
 
 
-public class CukesRunner {}
+public class CukesRunner {
+
+        static {
+                System.out.println("CukesRunner запускается!");
+        }
+}
+
+//TO KEEP SAFE OUR DATA SAFE
+//environmental variables
+// cukes runner on the top. edit configuration
+//EMAIL=CBBLE02@GMAIL.COM;PASSWORD=545823
+//IF WE NEED TO SHARE PROJECT IN JENKINS WE HAVE TO CREATE THIS VARIABLES IN JENKINS(TO AVOID SHARE SENSITIVE DATA ON GITHUB)
+
