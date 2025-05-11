@@ -1,19 +1,18 @@
 node {
     stage('Clone code') {
-        git 'https://github.com/denosy/asgard.git'
+        git branch: 'main', url: 'https://github.com/denosy/Library_application_dos.git'
     }
 
-    stage('Run tests'){
-        if(isUnix()){
+    stage('Run tests') {
+        if (isUnix()) {
             sh "mvn clean test"
         } else {
             bat "mvn clean test -Dcucumber.filter.tags=\"@smoke\" "
         }
-
     }
 
-    stage('Generate report'){
-           cucumber failedFeaturesNumber: -1,
+    stage('Generate report') {
+        cucumber failedFeaturesNumber: -1,
             failedScenariosNumber: -1,
             failedStepsNumber: -1,
             fileIncludePattern: '**/*.json',
