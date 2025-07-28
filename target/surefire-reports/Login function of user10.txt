@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Login function of user10
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.373 s - in Login function of user10
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.7 s - in Login function of user10

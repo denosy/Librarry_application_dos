@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features", // path feature files folder
         glue = "com/dos/step_definitions", //path to step def
         dryRun = false, //run scenarios
-        tags = "@smoke", // tag to choose particular scenario/method
+        tags = "@wip", // tag to choose particular scenario/method
         publish = true // true - to get link with public html report
 )
 
@@ -25,9 +25,6 @@ import org.junit.runner.RunWith;
 
 public class CukesRunner {
 
-        static {
-                System.out.println("CukesRunner запускается!");
-        }
 }
 
 //TO KEEP SAFE OUR DATA SAFE

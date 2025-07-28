@@ -9,9 +9,5 @@
         <module name="Librarry_application_dos" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="asgard_project" target="11" />
-      <module name="Library_application_dos" target="11" />
-    </bytecodeTargetLevel>
   </component>
 </project>
