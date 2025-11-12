@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
 
         features = "@target/rerun.txt",
-        glue = "com/library/steps"
+        glue = "com/dos/step_definitions"
 
 )
 public class FailedTestRunner {

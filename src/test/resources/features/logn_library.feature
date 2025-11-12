@@ -1,6 +1,6 @@
 Feature: Login function of user10
 
-  @wip
+
   Scenario: User is logging with valid credentials
       Given user is on the login page
       And user should enter valid login and password

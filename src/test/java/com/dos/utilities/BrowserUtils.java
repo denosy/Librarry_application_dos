@@ -1,6 +1,7 @@
 package com.dos.utilities;
 
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -102,6 +103,31 @@ and waits for that WebElement not to be displayed on the page
         Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains(expectedInURL));
 
     }
+
+
+    public static void verifyToastMessage(String expectedText) {
+        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(5));
+
+        // Ждём, пока появится элемент с нужным текстом
+        WebElement toastMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class, 'toast') and contains(text(),'" + expectedText + "')]")
+        ));
+
+        // Проверяем, что текст совпадает
+        String actualText = toastMessage.getText().trim();
+        Assert.assertTrue(
+                "Expected message: [" + expectedText + "] but found: [" + actualText + "]",
+                actualText.contains(expectedText)
+        );
+
+        // Дополнительно ждём, пока окно исчезнет
+        wait.until(ExpectedConditions.invisibilityOf(toastMessage));
+    }
+
+
+
+
+
+
 
 
 }

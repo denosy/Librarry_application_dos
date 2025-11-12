@@ -34,6 +34,6 @@ public class LoginPage extends BasePage {
         loginBtn.click();
     }
 
-
+//input[@id='inputEmail']
 }
 
